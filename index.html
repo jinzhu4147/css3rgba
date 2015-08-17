@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		/* CSS Document */
+		body, ul, ol, h1, h2, h3, h4, h5, h6, p, form, fieldset, table, td, img, div, dl, dt, dd, input, textarea, select,label,span {
+			margin: 0;
+			padding: 0;
+		}
+		body {
+			font-size: 12px;
+			font-family: "SimSun", "宋体";
+			background: #fff;
+			-webkit-text-size-adjust: 100%;
+		}
+		h1, h2, h3, h4, h5, h6 {
+			font-style: 1em;
+		}
+		ul, ol {
+			list-style: none;
+		}
+		img {
+			border: none;
+			vertical-align:bottom;
+			-display:block
+		}
+		em, i {
+			font-style: normal;
+		}
+		input, select, textarea {
+			outline: none;
+			border: none;
+			background: none;
+		}
+		textarea {
+			resize: none;
+		}
+		a {
+			text-decoration: none;
+		}
+		/*去掉虚线框*/
+		a, label {
+		blr: expression(this.onFocus=this.blur());
+		}
+		a, label {
+			outline: none;
+		}
+		/*清浮动*/
+		.clearfix:after, .clearfix:before {
+			content: "";
+			display: table;
+		}
+		.clearfix:after {
+			clear: both;
+		}
+		.clearfix {
+		*zoom: 1;
+		}
+		/*全局浮动*/
+		.fl {
+			float: left;
+		}
+		.fr {
+			float: right;
+		}
+		.box{ width:1100px;margin:50px auto;}
+		.con{width:251px; height:190px; border:1px solid #ccc; background: url(1.jpg) no-repeat; background-size:contain; float:left;margin:10px; position: relative; cursor: pointer; overflow: hidden;}
+		.con span{ position: absolute;left:0;bottom:-80px; height:60px; background: rgba(0,0,0,.5); color:#fff; line-height: 20px;padding:10px; transition:.5s all ease;}
+		.con:hover span{ bottom:0;}
+	</style>
+</head>
+<body>
+	<div class="box">
+		<div class="con">
+			<span>利用after和before制作提示框
+利用after和before制作提示框,请使用高级浏览器浏览。</span>
+		</div>
+		<div class="con">
+			<span>利用after和before制作提示框
+利用after和before制作提示框,请使用高级浏览器浏览。</span>
+		</div>
+		<div class="con">
+			<span>利用after和before制作提示框
+利用after和before制作提示框,请使用高级浏览器浏览。</span>
+		</div>
+		<div class="con">
+			<span>利用after和before制作提示框
+利用after和before制作提示框,请使用高级浏览器浏览。</span>
+		</div>
+		<div class="con">
+			<span>利用after和before制作提示框
+利用after和before制作提示框,请使用高级浏览器浏览。</span>
+		</div>
+		<div class="con">
+			<span>利用after和before制作提示框
+利用after和before制作提示框,请使用高级浏览器浏览。</span>
+		</div>
+		<div class="con">
+			<span>利用after和before制作提示框
+利用after和before制作提示框,请使用高级浏览器浏览。</span>
+		</div>
+		<div class="con">
+			<span>利用after和before制作提示框
+利用after和before制作提示框,请使用高级浏览器浏览。</span>
+		</div>
+
+	</div>
+	
+</body>
+</html>
